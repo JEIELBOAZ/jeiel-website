@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+  </head>
+  <body>
+
+<header class="header">
+  <div class="left-section">
+    <img class="menu-bar" 
+    src="icons/menu-bar.svg">
+    <img class="youtube-logo" 
+    src="icons/youtube-logo.svg">
+  </div>
+  <div class="middle-section">
+    <input class="search" type="text" 
+  placeholder="Search">
+  <button class="search-button">
+    <img class="search-icon" src="icons/search.svg">
+    <div class="tooltip">Search</div>
+  </button>
+  <button class="mic-button">
+    <img class="mic-icon" src="icons/mic-icon.svg">
+    <div class="tooltip">Search with your voice</div>
+  </button>
+ 
+  </div>
+  
+  <div class="right-section">
+    <div class="upload-button">
+      <img class="upload" src="icons/upload.svg">
+      <div class="tooltip">Create</div>
+    </div>
+    <div class="app-button">
+      <img class="app" src="icons/youtube-apps.svg">
+      <div class="tooltip">App</div>
+    </div>
+    <div class="notif-button">
+      <div class="notif-icon">
+        <img class="notif" src="icons/notif.svg">
+        <div class="notif-count">3</div>
+        <div class="tooltip">Notifications</div>
+      </div>
+    </div>
+    <div class="channel-button">
+      <img class="channel-icon" src="icons/channel-icon.jpg">
+      <div class="tooltip">Channel</div>
+    </div>
+  </div>
+</header>
+
+  <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/music.svg">
+      <div>Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/library.svg">
+      <div>Library</div>
+    </div>
+  </nav>      
+
+  <main>
+    <section class="video-grid">
+      <div class="video1">
+        <div class="good">
+          <a href="https://www.youtube.com/watch?v=QlcPVitKjOM" 
+            target="_blank" class="video-title-link">
+          <img class="thumbnail" 
+          src="thumbnails/congtv.webp">
+          </a>
+          <div class="video-time">14:40</div>
+        </div>
+        <div class="video">
+          <div class="head-picture">
+            <div class="picture-container">
+              <a href="https://www.youtube.com/@CongTheVlogger" 
+              target="_blank" class="video-title-link">
+              <img class="cute" src="thumbnails/cong.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="picture-tooltip" src="thumbnails/cong.jpg">
+              <div>
+                <div class="author-tooltip">
+                  Cong TV &#x2713;
+                </div>
+                <div class="stats-tooltip">
+                  15M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=QlcPVitKjOM" 
+            target="_blank" class="video-title-link">
+            <p class="title">
+              RAYDORBYE 
+             </p>
+          </a>
+            <p class="author">
+              Cong TV &#x2713;
+            </P>
+            <p class="stat">
+              1.9M views &#183; 3 days ago
+            </p>
+          </div>
+        </div>  
+      </div>
+      <div class="video1">
+        <div class="good">
+          <a href="https://www.youtube.com/watch?v=YLt73w6criQ" 
+            target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/mr.beast.webp">
+          </a>
+          <div class="video-time">12:16</div>
+        </div>
+        <div class="video">
+          <div class="head-picture">
+            <div class="picture-container">
+              <a href="https://www.youtube.com/@MrBeast" 
+              target="_blank" class="video-title-link">
+              <img class="cute" src="thumbnails/beast.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="picture-tooltip" src="thumbnails/beast.jpg">
+              <div>
+                <div class="author-tooltip">
+                  MrBeast &#x2713;
+                </div>
+                <div class="stats-tooltip">
+                  167M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=YLt73w6criQ" 
+            target="_blank" class="video-title-link">
+            <p class="title">
+              I Paid A Real Assassin To Try To Kill Me
+            </p>
+            </a>
+            <p class="author">                
+              MrBeast &#x2713;
+            </P>
+            <p class="stat">
+              169M views &#183; 3 months ago
+            </p>
+          </div>
+        </div>  
+      </div>
+      <div class="video1">
+        <div class="good">
+          <a href="https://www.youtube.com/watch?v=dp8WVMeiQOQ" 
+            target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/marcust.webp">
+          </a>
+          <div class="video-time">55:45</div>
+        </div>
+        <div class="video">
+          <div class="head-picture">
+            <div class="picture-container">
+              <a href="https://www.youtube.com/@MarcusTOfficial" 
+              target="_blank" class="video-title-link">
+              <img class="cute" src="thumbnails/marcust.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="picture-tooltip" src="thumbnails/marcust.jpg">
+              <div>
+                <div class="author-tooltip">
+                  MarcusT &#x2713;
+                </div>
+                <div class="stats-tooltip">
+                  1.79M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=dp8WVMeiQOQ" 
+            target="_blank" class="video-title-link">
+            <p class="title">
+              OMEGLE IS JUST TOO EASY FOR KOREAN GUYS! (Fake Korean) In Love with a Vietnamese Girl!!!! 
+            </p>
+            </a>
+            <p class="author">
+              MarcusT &#x2713;
+            </P>
+            <p class="stat">
+              1.1M views &#183; 1 month ago
+            </p>
+          </div>
+        </div>  
+      </div>
+      <div class="video1">
+        <div class="good">
+          <a href="https://www.youtube.com/watch?v=KBkwK0wTYvw" 
+            target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/echo.webp">
+          </a>
+          <div class="video-time">10:49</div>
+        </div>
+        <div class="video">
+          <div class="head-picture">
+            <div class="picture-container">
+              <a href="https://www.youtube.com/@echosanfordofficial" 
+              target="_blank" class="video-title-link">
+              <img class="cute" src="thumbnails/echo.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="picture-tooltip" src="thumbnails/echo.jpg">
+              <div>
+                <div class="author-tooltip">
+                  ECHO Sanford
+                </div>
+                <div class="stats-tooltip">
+                  56.8k subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=KBkwK0wTYvw" 
+            target="_blank" class="video-title-link">
+            <p class="title">
+              HOW TO: BENEDETTA  
+            </p>
+            </a>
+            <p class="author">
+              ECHO Sanford
+            </P>
+            <p class="stat">
+              1M views &#183; 4 months ago
+            </p>
+          </div>
+        </div>  
+      </div>
+      <div class="video1">
+        <div class="good">
+          <a href="https://www.youtube.com/watch?v=Lv59h1zDl-U" 
+            target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/haikyuu.webp">
+          </a>
+          <div class="video-time">10:47</div>
+        </div>
+        <div class="video">
+          <div class="head-picture">
+            <div class="picture-container">
+              <a href="https://www.youtube.com/@TitansVolleyball" 
+              target="_blank" class="video-title-link">
+              <img class="cute" src="thumbnails/haikyuu.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="picture-tooltip" src="thumbnails/haikyuu.jpg">
+              <div>
+                <div class="author-tooltip">
+                  Titans Volleyball
+                </div>
+                <div class="stats-tooltip">
+                  1.99M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=Lv59h1zDl-U" 
+            target="_blank" class="video-title-link">
+            <p class="title">
+              Top 10 Most Epic Moments in Haikyuu!!
+            </p>
+            </a>
+            <p class="author">
+              Titans Volleyball
+            </P>
+            <p class="stat">
+              7.2M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>  
+      </div>
+      <div class="video1">
+        <div class="good">
+          <a href="https://www.youtube.com/watch?v=B9vkM8SeScY" 
+            target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/wish.webp">
+          </a>
+          <div class="video-time">4:05</div>
+        </div>
+        <div class="video">
+          <div class="head-picture">
+            <div class="picture-container">
+              <a href="https://www.youtube.com/@WishFM1075official" 
+              target="_blank" class="video-title-link">
+              <img class="cute" src="thumbnails/wish.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="picture-tooltip" src="thumbnails/wish.jpg">
+              <div>
+                <div class="author-tooltip">
+                  Wish 107.5 &#x2713;
+                </div>
+                <div class="stats-tooltip">
+                  14.2M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=B9vkM8SeScY" 
+            target="_blank" class="video-title-link">
+            <p class="title">
+              SB19 performs "Gento" LIVE on Wish 107.5 Bus
+            </p>
+            </a>
+            <p class="author">
+              Wish 107.5 &#x2713;
+            </P>
+            <p class="stat">
+              2.7M views &#183; 2 weeks ago
+            </p>
+          </div>
+        </div>  
+      </div>
+      <div class="video1">
+        <div class="good">
+          <a href="https://www.youtube.com/watch?v=3ogyS4KOlXc" 
+            target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/hack.webp">
+          </a>
+          <div class="video-time">14:35</div>
+        </div>
+        <div class="video">
+          <div class="head-picture">
+            <div class="picture-container">
+              <a href="https://www.youtube.com/@NetworkChuck" 
+              target="_blank" class="video-title-link">
+              <img class="cute" src="thumbnails/hack.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="picture-tooltip" src="thumbnails/hack.jpg">
+              <div>
+                <div class="author-tooltip">
+                  NetworkChuck &#x2713;
+                </div>
+                <div class="stats-tooltip">
+                  3.16M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=3ogyS4KOlXc" 
+            target="_blank" class="video-title-link">
+            <p class="title">
+              i HACKED my wife's web browser (it's SCARY easy!!)
+            </p>
+            </a>
+            <p class="author">
+              NetworkChuck &#x2713;
+            </P>
+            <p class="stat">
+              3.3M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>  
+      </div>
+      <div class="video1">
+        <div class="good">
+          <a href="https://www.youtube.com/watch?v=9SbgmM3mSps" 
+            target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/genshin.webp">
+          </a>
+          <div class="video-time">3:42</div>
+        </div>
+        <div class="video">
+          <div class="head-picture">
+            <div class="picture-container">
+              <a href="https://www.youtube.com/@GenshinImpact" 
+              target="_blank" class="video-title-link">
+              <img class="cute" src="thumbnails/genshin.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="picture-tooltip" src="thumbnails/genshin.jpg">
+              <div>
+                <div class="author-tooltip">
+                  Genshin Impact &#x2713;
+                </div>
+                <div class="stats-tooltip">
+                  6.77M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=9SbgmM3mSps" 
+            target="_blank" class="video-title-link">
+            <p class="title">
+              Overture Teaser: The Final Feast | Genshin Impact
+            </p>
+            </a>
+            <p class="author">
+              Genshin Impact &#x2713;
+            </P>
+            <p class="stat">
+              5.6M views &#183; 12 days ago
+            </p>
+          </div>
+        </div>  
+      </div>
+      <div class="video1">
+        <div class="good">
+          <a href="https://www.youtube.com/watch?v=eu_bKblRJek" 
+            target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/lato.webp">
+          </a>
+          <div class="video-time">10:36</div>
+        </div>
+        <div class="video">
+          <div class="head-picture">
+            <div class="picture-container">
+              <a href="https://www.youtube.com/@vikagene" 
+              target="_blank" class="video-title-link">
+              <img class="cute" src="thumbnails/lato.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="picture-tooltip" src="thumbnails/lato.jpg">
+              <div>
+                <div class="author-tooltip">
+                  Vikachka & Eugene
+                </div>
+                <div class="stats-tooltip">
+                  1.49M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=eu_bKblRJek" 
+            target="_blank" class="video-title-link">
+            <p class="title">
+              Ibang Lato lato Pala Ang Gusto Niya
+            </p>
+            </a>
+            <p class="author">           
+              Vikachka & Eugene
+            </P>
+            <p class="stat">
+              233K views &#183; 2 weeks ago
+            </p>
+          </div>
+        </div>  
+      </div>
+      <div class="video1">
+        <div class="good">
+          <a href="https://www.youtube.com/watch?v=HaTbaeNZICE" 
+            target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/volleyball.webp">
+          </a>
+          <div class="video-time">5:20</div>
+        </div>
+        <div class="video">
+          <div class="head-picture">
+            <div class="picture-container">
+              <a href="https://www.youtube.com/@SUGEICHANNEL" 
+              target="_blank" class="video-title-link">
+              <img class="cute" src="thumbnails/volleyball.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="picture-tooltip" src="thumbnails/volleyball.jpg">
+              <div>
+                <div class="author-tooltip">
+                  S U G E I
+                </div>
+                <div class="stats-tooltip">
+                  7.56K subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=HaTbaeNZICE" 
+            target="_blank" class="video-title-link">
+            <p class="title">
+              Haikyuu characters time skip (future jobs)
+            </p>
+            </a>
+            <p class="author">
+              S U G E I
+            </P>
+            <p class="stat">
+              1.9M views &#183; 2 years ago
+            </p>
+          </div>
+        </div>  
+      </div>
+      <div class="video1">
+        <div class="good">
+          <a href="https://www.youtube.com/watch?v=sec6XuFjcJk" 
+            target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/black.webp">
+          </a>
+          <div class="video-time">25:24</div>
+        </div>
+        <div class="video">
+          <div class="head-picture">
+            <div class="picture-container">
+              <a href="https://www.youtube.com/@BlackCookiesProd" 
+              target="_blank" class="video-title-link">
+              <img class="cute" src="thumbnails/black.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="picture-tooltip" src="thumbnails/black.jpg">
+              <div>
+                <div class="author-tooltip">            
+                  Black Cookies Productions &#x2713;
+                </div>
+                <div class="stats-tooltip">
+                  299K subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=sec6XuFjcJk" 
+            target="_blank" class="video-title-link">
+            <p class="title">
+              BLACK COOKIES BLIND DATE WITH NIKA HIGASHIONNA
+            </p>
+            </a>
+            <p class="author">
+              Black Cookies Productions &#x2713;
+            </P>
+            <p class="stat">
+              502K views &#183; 3 weeks ago
+            </p>
+          </div>
+        </div>  
+      </div>
+      <div class="video1">
+        <div class="good">
+          <a href="https://www.youtube.com/watch?v=Q-R8_wBSTyQ" 
+            target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/renz.webp">
+          </a>
+          <div class="video-time">3:42</div>
+        </div>
+        <div class="video">
+          <div class="head-picture">
+            <div class="picture-container">
+              <a href="https://www.youtube.com/@ranzkyle" 
+              target="_blank" class="video-title-link">
+              <img class="cute" src="thumbnails/renz.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="picture-tooltip" src="thumbnails/renz.jpg">
+              <div>
+                <div class="author-tooltip">
+                  Ranz Kyle &#x2713;
+                </div>
+                <div class="stats-tooltip">
+                  15.5M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=Q-R8_wBSTyQ" 
+            target="_blank" class="video-title-link">
+            <p class="title">
+              TAGALOG JOKES With EMPOY (Try Not To Laugh!!) | Ranz and Niana
+            </p>
+            </a>
+            <p class="author">
+              Ranz Kyle &#x2713;
+            </P>
+            <p class="stat">
+              9M views &#183; 2 years ago
+            </p>
+          </div>
+        </div>  
+      </div>
+    </section>
+  </main>
+  </body>
+</html>
